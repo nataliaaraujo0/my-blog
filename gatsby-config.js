@@ -3,6 +3,7 @@ module.exports = {
     title: `My Blog`,
     description: `A blog about frontend development`,
     author: `@gatsbyjs`,
+    position: "Frontend Development",
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
