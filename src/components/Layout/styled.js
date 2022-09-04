@@ -2,8 +2,6 @@ import styled from "styled-components"
 
 export const LayoutWrapper = styled.section`
   display: flex;
-  background: #0d0f22;
-  color: #fff;
 `
 export const LayoutMain = styled.main`
   width: 100%;

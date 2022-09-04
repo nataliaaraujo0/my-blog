@@ -1,6 +1,8 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import Img from "gatsby-image"
+import { AvatarWrapper } from './styled'
+import * as S from './styled'
 
 export const Avatar = () => {
 	const { avatarImage, iconGithub, iconLinkedin } = useStaticQuery(
@@ -34,12 +36,12 @@ export const Avatar = () => {
 	`
 	)
 	return (
-		<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '60px' }}>
+		<S.AvatarWrapper >
 			<Img fixed={avatarImage.childImageSharp.fixed} />
-			<div style={{ marginTop: '20px' }}>
+			<div >
 				<Img fixed={iconLinkedin.childImageSharp.fixed} />
 				<Img fixed={iconGithub.childImageSharp.fixed} />
 			</div>
-		</div>
+		</S.AvatarWrapper  >
 	)
 }
