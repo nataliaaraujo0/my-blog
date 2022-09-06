@@ -39,11 +39,7 @@ export const ContentInfoWrapper = styled.div`
     margin-bottom: 1rem;
     font-size: 1.5rem;
   }
-  > p {
-    color: #c8d4fa;
-    font-size: 14px;
-    margin-bottom: 0.2rem;
-  }
+
   > p {
     color: #6f8ff4;
   }

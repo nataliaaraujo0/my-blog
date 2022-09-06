@@ -2,23 +2,19 @@ import React from 'react'
 
 import * as S from './styled'
 
-export const RepoGithub = () => {
+export const RepoGithub = ({ slug, img, title, description, bgTag, titleTag }) => {
 	return (
-		<S.RepoLink to='/slug/'>
+		<S.RepoLink to={slug}>
 			<S.RepoItemWrapper>
 				<S.RepoImage>
-					<h1>img</h1>
+					<h1>{img}</h1>
 				</S.RepoImage>
 
 				<S.ContentInfoWrapper>
-					<h1>Name project</h1>
-					<p>22 de agosto de 2022 min de leitura</p>
-					<description>This project consists of showing my portfolio</description>
+					<h1>{title}</h1>
+					<description>{description}</description>
 					<S.RepoTagList>
-						<S.RepoTag background='#de27bc'>react</S.RepoTag>
-						<S.RepoTag background='#105310'>typet</S.RepoTag>
-						<S.RepoTag >sem bg</S.RepoTag>
-
+						<S.RepoTag background={bgTag}>{titleTag}</S.RepoTag>
 
 					</S.RepoTagList>
 				</S.ContentInfoWrapper>
