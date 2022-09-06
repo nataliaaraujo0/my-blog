@@ -3,8 +3,6 @@ import { Link } from "gatsby"
 
 export const RepoLink = styled(Link)`
   display: flex;
-  height: 140px;
-  gap: 2rem;
   text-decoration: none;
 
   &:hover {
@@ -13,10 +11,12 @@ export const RepoLink = styled(Link)`
 `
 
 export const RepoItemWrapper = styled.div`
+  align-items: center;
+  border-bottom: 1px solid #38444d;
   display: flex;
-  height: 124px;
-  gap: 2rem;
-  justify-content: center;
+  padding: 2rem 3rem;
+  width: 100%;
+  gap: 1rem;
 `
 
 export const RepoImage = styled.div`

@@ -7,6 +7,14 @@ const AboutPage = () => (
   <Layout>
     <Seo title="repositories" />
     <RepoGithub />
+    <RepoGithub />
+    <RepoGithub />
+    <RepoGithub />
+    <RepoGithub />
+    <RepoGithub />
+    <RepoGithub />
+    <RepoGithub />
+    <RepoGithub />
   </Layout>
 )
 
