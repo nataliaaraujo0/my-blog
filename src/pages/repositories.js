@@ -1,12 +1,13 @@
 import * as React from "react"
 import { Layout } from "../components/Layout"
+import { RepoGithub } from "../components/RepoGitbub"
 import { Seo } from "../components/seo"
 
-const RepositoriesPage = () => (
+const AboutPage = () => (
   <Layout>
-    <Seo title="Repositories" />
-    <h1>Repositories</h1>
+    <Seo title="repositories" />
+    <RepoGithub />
   </Layout>
 )
 
-export default RepositoriesPage
+export default AboutPage
