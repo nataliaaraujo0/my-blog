@@ -3,8 +3,13 @@ import { Link } from "gatsby"
 
 export const RepoLink = styled(Link)`
   display: flex;
-  height: 124px;
+  height: 140px;
   gap: 2rem;
+  text-decoration: none;
+
+  &:hover {
+    color: #1fa1f2;
+  }
 `
 
 export const RepoItemWrapper = styled.div`
@@ -29,9 +34,10 @@ export const ContentInfoWrapper = styled.div`
   background: transparent;
   width: 80%;
 
-  > strong {
+  > h1 {
     color: #fff;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
   }
   > p {
     color: #c8d4fa;
@@ -58,4 +64,5 @@ export const RepoTag = styled.div`
   height: 26px;
   border-radius: 4px;
   background: blue;
+  color: #fff;
 `
