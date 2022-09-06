@@ -9,7 +9,7 @@ export const MenuLinks = () => {
 					<S.MenuLinksItem
 						key={i}
 					>
-						<S.MenuLinksLink to={link.url}>
+						<S.MenuLinksLink to={link.url} activeClassName='active'>
 							{link.label}
 						</S.MenuLinksLink>
 

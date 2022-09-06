@@ -10,15 +10,15 @@ export const MenuLinksItem = styled.li`
   padding: 0.5rem 0;
 
   .active {
-    color: pink;
+    color: #ffae11;
   }
 `
 export const MenuLinksLink = styled(Link)`
-  color: blue;
+  color: #fff;
   transition: color 0.5s;
   text-decoration: none;
 
   &:hover {
-    color: blue;
+    color: #ea9d08;
   }
 `
