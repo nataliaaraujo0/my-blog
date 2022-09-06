@@ -63,6 +63,6 @@ export const RepoTag = styled.div`
   max-width: auto;
   height: 26px;
   border-radius: 4px;
-  background: blue;
+  background: ${props => (props.background ? props.background : "#110adc")};
   color: #fff;
 `

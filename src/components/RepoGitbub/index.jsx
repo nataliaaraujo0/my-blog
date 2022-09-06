@@ -15,9 +15,11 @@ export const RepoGithub = () => {
 					<p>22 de agosto de 2022 min de leitura</p>
 					<description>This project consists of showing my portfolio</description>
 					<S.RepoTagList>
-						<S.RepoTag>react</S.RepoTag>
-						<S.RepoTag>ts</S.RepoTag>
-						<S.RepoTag>tadasds</S.RepoTag>
+						<S.RepoTag background='#de27bc'>react</S.RepoTag>
+						<S.RepoTag background='#105310'>typet</S.RepoTag>
+						<S.RepoTag >sem bg</S.RepoTag>
+
+
 					</S.RepoTagList>
 				</S.ContentInfoWrapper>
 
