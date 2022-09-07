@@ -24,6 +24,11 @@ export const RepoImage = styled.div`
   height: 200px;
   border-radius: 4px;
   background: blueviolet;
+
+  img{
+  width: 200px;
+  height: 200px;
+  }
 `
 
 export const ContentInfoWrapper = styled.div`
