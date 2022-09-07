@@ -19,8 +19,6 @@ export const RepoItemWrapper = styled.div`
   gap: 1rem;
 `
 
-<<<<<<< HEAD
-=======
 export const RepoImage = styled.div`
   width: 200px;
   height: 200px;
@@ -33,7 +31,6 @@ export const RepoImage = styled.div`
   }
 `
 
->>>>>>> a8337048c63108a22b9511bb4fb50c924f9f7902
 export const ContentInfoWrapper = styled.div`
   justify-content: center;
   display: flex;
