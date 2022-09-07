@@ -19,13 +19,6 @@ export const RepoItemWrapper = styled.div`
   gap: 1rem;
 `
 
-export const RepoImage = styled.div`
-  width: 200px;
-  height: 200px;
-  border-radius: 4px;
-  background: blueviolet;
-`
-
 export const ContentInfoWrapper = styled.div`
   justify-content: center;
   display: flex;
