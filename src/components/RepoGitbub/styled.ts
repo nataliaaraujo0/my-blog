@@ -8,15 +8,18 @@ export const RepoLink = styled(Link)`
   &:hover {
     color: #1fa1f2;
   }
+
 `
 
 export const RepoItemWrapper = styled.div`
   align-items: center;
-  border-bottom: 1px solid #38444d;
+  border-bottom: 1px solid #232256;
   display: flex;
   padding: 2rem 3rem;
   width: 100%;
   gap: 1rem;
+
+  
 `
 
 export const RepoImage = styled.div`

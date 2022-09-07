@@ -3,7 +3,7 @@ import styled from "styled-components"
 
 export const MenuLinksWrapper = styled.nav``
 export const MenuLinksList = styled.ul`
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 300;
 `
 export const MenuLinksItem = styled.li`
@@ -11,10 +11,11 @@ export const MenuLinksItem = styled.li`
 
   .active {
     color: #ffae11;
+    font-weight: bold;
   }
 `
 export const MenuLinksLink = styled(Link)`
-  color: #fff;
+  color: #9384d1;
   transition: color 0.5s;
   text-decoration: none;
 

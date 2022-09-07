@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 export const MenuBarWrapper = styled.aside`
   align-items: center;
   background: #0d0f22;
-  border-left: 1px solid #38444d;
+  border-left: 1px solid #232256;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -32,7 +32,8 @@ export const MenuBarItem = styled.span`
   padding: 1.1rem;
   position: relative;
   width: 3.75rem;
+
   &:hover {
-    color: #ffae11;
+    color: #ea9d08;
   }
 `

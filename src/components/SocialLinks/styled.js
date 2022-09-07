@@ -6,17 +6,18 @@ export const SocialLinksWrapper = styled.nav`
 export const SocialLinksList = styled.ul`
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   list-style: none;
+  gap: 8px;
 `
 export const SocialLinksItem = styled.li``
 export const SocialLinksLink = styled.a`
-  color: yellow;
+  color: #8a2be2;
   text-decoration: none;
   transition: color 0.5s;
 
   &:hover {
-    color: green;
+    color: #c060fc;
   }
 `
 export const IconWrapper = styled.div`

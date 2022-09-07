@@ -18,6 +18,7 @@ export const SocialLinks = () => {
 								title={link.label}
 								target="_blank"
 								rel="noopener noreferrer"
+
 							>
 								<S.IconWrapper>
 									<Icon />
