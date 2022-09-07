@@ -7,6 +7,8 @@ const AboutPage = () => (
   <Layout>
     <Seo title="repositories" />
     <RepoGithub
+      title="Anime TV"
+      description="Projeto para assistir anime"
       tags={[
         {
           id: 1,
