@@ -10,7 +10,6 @@ export const RepoLink = styled(Link)`
   }
 
 `
-
 export const RepoItemWrapper = styled.div`
   align-items: center;
   border-bottom: 1px solid #232256;
@@ -18,13 +17,11 @@ export const RepoItemWrapper = styled.div`
   padding: 2rem 3rem;
   width: 100%;
   gap: 1rem;
-
-  
 `
 
 export const RepoImage = styled.div`
-  width: 132px;
-  height: 124px;
+  width: 200px;
+  height: 200px;
   border-radius: 4px;
   background: blueviolet;
 `
