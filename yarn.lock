@@ -5459,7 +5459,7 @@ gatsby-plugin-styled-components@^5.22.0:
 
 gatsby-plugin-typescript@^4.22.0:
   version "4.22.0"
-  resolved "https://registry.npmjs.org/gatsby-plugin-typescript/-/gatsby-plugin-typescript-4.22.0.tgz"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-typescript/-/gatsby-plugin-typescript-4.22.0.tgz#521eb45922769812035b11e5d85f936041e18e0f"
   integrity sha512-3AbTskIjIBJT0jZKv4tIewBXOB1VEeylujsmIhgkk08Gb5i1ObXzEEwvT4uoibJxWKqTNLdSi7J2UW0eicWUdg==
   dependencies:
     "@babel/core" "^7.15.5"

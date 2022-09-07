@@ -49,16 +49,4 @@ export const RepoTagList = styled.div`
   display: flex;
   gap: 1rem;
 `
-export const RepoTag = styled.div`
-  margin-top: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-width: 72px;
-  width: 100px;
-  max-width: auto;
-  height: 26px;
-  border-radius: 4px;
-  background: ${props => (props.background ? props.background : "#110adc")};
-  color: #fff;
-`
+
