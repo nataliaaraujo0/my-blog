@@ -3,13 +3,13 @@ import { RepoTag } from "../RepoTag"
 import { RepoProps } from "./interface"
 
 import * as S from "./styled"
-import tags from "./content"
 
 export const RepoGithub = ({
   slug,
   img,
   title = "titlo",
   description = "descricao",
+  tags = [],
 }: RepoProps) => {
   return (
     <S.RepoLink to={slug}>

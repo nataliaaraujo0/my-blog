@@ -6,7 +6,15 @@ import { Seo } from "../components/seo"
 const AboutPage = () => (
   <Layout>
     <Seo title="repositories" />
-    <RepoGithub />
+    <RepoGithub
+      tags={[
+        {
+          id: 1,
+          titleTag: "ReactJS",
+          bgTag: "#55aaff",
+        },
+      ]}
+    />
   </Layout>
 )
 
