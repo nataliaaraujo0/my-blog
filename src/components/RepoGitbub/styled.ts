@@ -44,7 +44,6 @@ export const ContentInfoWrapper = styled.div`
     color: #6f8ff4;
   }
 `
-
 export const RepoTagList = styled.div`
   display: flex;
   gap: 1rem;
