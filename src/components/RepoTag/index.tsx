@@ -1,10 +1,6 @@
 import React from "react"
+import { TagProps } from "./intercafe"
 import * as S from "./styled"
-
-export interface TagProps {
-  titleTag?: string
-  bgTag?: string
-}
 
 export const RepoTag = ({ titleTag = "ReactJs", bgTag }: TagProps) => {
   return (
