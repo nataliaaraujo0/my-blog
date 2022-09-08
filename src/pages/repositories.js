@@ -12,6 +12,9 @@ const AboutPage = () => {
         allMarkdownRemark {
           edges {
             node {
+              fields {
+                slug
+              }
               frontmatter {
                 title
                 description
@@ -40,9 +43,11 @@ const AboutPage = () => {
               description,
               tags: { titleTag, bgTag },
             },
+            fields: { slug },
           },
         }) => (
           <RepoGithub
+            slug={slug}
             title={title}
             description={description}
             tags={[{ titleTag, bgTag }]}
