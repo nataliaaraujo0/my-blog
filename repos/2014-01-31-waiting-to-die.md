@@ -1,7 +1,7 @@
 ---
 title: Game
 description: Projeto para assistir games.
-tags: [{ id: 1, titleTag: "ReactJS", bgTag: "#55aaff" }]
+tags: { id: 1, titleTag: "ReactJS", bgTag: "#55aaff" }
 ---
 
 # Lorem ipsum

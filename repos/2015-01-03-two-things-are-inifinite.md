@@ -1,7 +1,7 @@
 ---
 title: Anime TV
 description: Projeto para ver anime.
-tags: [{ id: 1, titleTag: "ReactJS", bgTag: "#ff55ff" }]
+tags: { id: 1, titleTag: "Ts", bgTag: "#ff55ff" }
 ---
 
 # Lorem ipsum

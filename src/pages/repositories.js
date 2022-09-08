@@ -3,21 +3,54 @@ import { Layout } from "../components/Layout"
 import { RepoGithub } from "../components/RepoGitbub"
 import { Seo } from "../components/seo"
 
-const AboutPage = () => (
-  <Layout>
-    <Seo title="repositories" />
-    <RepoGithub
-      title="Anime TV"
-      description="Projeto para assistir anime"
-      tags={[
-        {
-          id: 1,
-          titleTag: "ReactJS",
-          bgTag: "#55aaff",
-        },
-      ]}
-    />
-  </Layout>
-)
+import { useStaticQuery, graphql } from "gatsby"
+
+const AboutPage = () => {
+  const { allMarkdownRemark } = useStaticQuery(
+    graphql`
+      query myRepos {
+        allMarkdownRemark {
+          edges {
+            node {
+              frontmatter {
+                title
+                description
+                tags {
+                  titleTag
+                  bgTag
+                }
+              }
+            }
+          }
+        }
+      }
+    `
+  )
+
+  const reposList = allMarkdownRemark.edges
+
+  return (
+    <Layout>
+      <Seo title="repositories" />
+      {reposList.map(
+        ({
+          node: {
+            frontmatter: {
+              title,
+              description,
+              tags: { titleTag, bgTag },
+            },
+          },
+        }) => (
+          <RepoGithub
+            title={title}
+            description={description}
+            tags={[{ titleTag, bgTag }]}
+          />
+        )
+      )}
+    </Layout>
+  )
+}
 
 export default AboutPage
